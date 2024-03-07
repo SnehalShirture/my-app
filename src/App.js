@@ -3,25 +3,16 @@ import Navbar from "./Navbar";
 import Pakage from "./Pakage";
 import Services from "./Services";
 
-
-
-
-
-import "./style.css"
+import "./style.css";
 
 function App() {
   return (
-    <div >
-     <Navbar />
-     <Banner />
-     <Pakage/>
-     <Services/>
-     
-     
-     
-     
+    <div>
+        <Navbar />
+        <Banner />
+        <Pakage />
+        <Services />
     </div>
-    
   );
 }
 
