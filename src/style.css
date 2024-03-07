@@ -1,0 +1,292 @@
+
+
+#logo{
+    width: 70px;
+}
+
+.navbar{
+    background-color:#1689e0;
+}
+
+.nav-link{
+    color: white;
+    font-family: 'Merriweather'
+    
+}
+#brandname{
+    font-family: 'Merriweather'
+}
+
+.nav-link hover {
+    color: black;
+    text-shadow:.5px .5px  1px black;
+}
+
+.icons img{
+    width: 25px;
+    margin-left: 25px;
+}
+
+#Home{
+    width: 100%;
+    height: 90vh;
+    background-color: #fafaf7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:wrap ;
+}
+
+#Home h1{
+    width: 100%;
+    font-size: 60px;
+    letter-spacing: 4px;
+    text-shadow: 1px  1px 1px black;
+    font-family: 'Merriweather';
+    object-position: left;
+}
+.img-fluid{
+    max-width: 100%;  
+    height: auto;  
+}
+#changetext{
+    font-family: verdana;
+    color: #1b3db9;
+    font-weight: bold;
+    }
+#changetext::after{
+
+    content: ' ';
+    animation-name: changetextcontent;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes changetextcontent{
+    10%{
+        content: 'Italy';
+    }
+    20%{
+        content: 'France';
+    }
+    30%{
+        content: 'Germany';
+    }
+    40%{
+        content: 'Spain';
+    }
+    50%{
+        content: 'Venezuela';
+    }
+}
+
+#formsdetail .card{
+    padding: 30px;
+    height: 160px;
+}
+
+#formsdetail.card,#product-section .card {
+    padding: 5px;
+    border-radius: 20px;
+}
+
+#product-section #add-btn{
+    width: 35px;
+    float: right;
+    margin-right: 20px;
+}
+#product-section .row{
+    margin-top: 30px;
+}
+#product-section h5{
+    margin-left: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#forms-details img{
+    width: 100%;
+    height: 75vh;
+    float: left;
+}
+
+.row {
+    display: flex;
+}
+.container {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+  }
+  
+  .row {
+    display: flex;
+  }
+.form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  select,
+  input,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+.column {
+    flex: 50%;
+    padding: 20px;
+}
+button:hover {
+    background-color: #45a049;
+}
+
+
+
+
+.background-image{
+    width: 100%;
+    height: 90vh;
+  }
+.overlay-text{
+    background-color:rgba(255, 255, 255, 0.5);
+    padding:20px;
+    text-align:center;
+    position: absolute;
+    top:50%;
+    right:50%;
+    transform:translate(50%, -50%);
+  }
+
+.icons img{
+    width: 25px;
+    margin-left: 25px;
+}
+.col-md-6 {
+    padding: 5px;
+  }
+
+#star{
+    color: orange;
+    font-size: 20px;
+    text-align: center;
+}
+
+.jumbotron{
+    height: 300px;
+    align-items: flex-end;
+    margin-top: 10%;
+    background: linear-gradient(to right, #b0eaa7, #2c9b00);
+    
+}
+.jumbotron h1{
+    font-family: 'Cursive Font', 'Lucida Handwriting', 'Brush Script MT';
+    color: black;
+    
+}
+.jumbotron h1 span{
+    color: rgb(46, 94, 237);
+}
+.jumbotron img{
+    width: 75%;
+}
+    
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+}
+
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.service-card {
+    width: 300px;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+}
+.jumbotron{
+    height: auto;
+    align-items: flex-end;
+    margin-top: 150px;
+    background: linear-gradient(to right, #87CEEB, #393d41);
+}
+
+
+#socialicons li{
+    display: inline-block;
+    width: 30px;
+}
+
+#socialicons li i {
+    color: black;
+}
+
+#footer.jumbotron{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    margin-top: 100px;
+}
+
+
+/*font-family: 'Merriweather', serif;
+font-family: 'Work Sans', sans-serif;*/
